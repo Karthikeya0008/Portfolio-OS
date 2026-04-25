@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  zoom: 1.1;
+}
+
 :root {
   --c: #00d4ff;
   --c2: #0066ff;
