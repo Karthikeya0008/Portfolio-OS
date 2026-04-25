@@ -141,7 +141,7 @@ blogs: [
 },
   work: [
     {
-      role: "AI & ML Development Intern",
+      role: "AI-ML Development Intern",
       org: "Tata Consultancy Services, Kolkata",
       period: "MAY 2026 - JUL 2026",
       bullets: [
