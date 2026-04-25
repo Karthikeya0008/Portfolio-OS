@@ -11,13 +11,16 @@ const fadeUp = (delay = 0) => ({
 });
 
 export default function Hero() {
-  const { name, tagline, description, stats, email, github, linkedin, Blogs } = resumeData;
+  const { name, tagline, description, stats, email, github, linkedin, Blogs, tech} = resumeData;
 
   const buildTexts = [
     "PRODUCTS THAT MATTER",
     "SYSTEMS THAT SCALE",
     "IMPACT DRIVEN PRODUCTS",
     "THINGS THAT SHIP",
+    "IDEAS TO REALITY",
+    "REAL PRODUCTS, NO NOISE",
+    "WITH INTENT",
   ];
 
   const [text, setText] = useState("");
@@ -94,7 +97,7 @@ export default function Hero() {
                   color: "rgba(255,255,255,0.55)",
                 }}
               >
-                {name.first}
+                {name.hi}
               </span>
               <br />
               <span
@@ -202,7 +205,7 @@ export default function Hero() {
                   el.style.background = "transparent";
                 }}
               >
-                GitHub ↗
+                GitHub
               </a>
               <a
                 href={linkedin}
@@ -225,7 +228,7 @@ export default function Hero() {
                   el.style.background = "transparent";
                 }}
               >
-                LinkedIn ↗
+                LinkedIn
               </a>
               <a
                 href={Blogs}
@@ -248,10 +251,10 @@ export default function Hero() {
                   el.style.background = "transparent";
                 }}
               >
-                TECHNICAL BLOGS ↗
+                TECHNICAL BLOGS
               </a>
               <a
-                href={Blogs}
+                href={tech}
                 target="_blank"
                 rel="noreferrer"
                 style={{
@@ -271,7 +274,7 @@ export default function Hero() {
                   el.style.background = "transparent";
                 }}
               >
-                  CODOLIO ↗
+                  COMPETITIVE CODING
               </a>
             </motion.div>
             
@@ -391,7 +394,7 @@ export default function Hero() {
             {/* Floating info cards */}
             {[
               { label: "CGPA", value: "8.89", top: "20px", left: "-30px" },
-              { label: "PROJECTS", value: "5+", bottom: "20px", right: "-30px" },
+              { label: "PROJECTS", value: "7+", bottom: "20px", right: "-30px" },
             ].map((card) => (
               <div
                 key={card.label}

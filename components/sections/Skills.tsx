@@ -22,9 +22,28 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiHtml5,
+  SiGit,
+  SiIntellijidea,
+  SiPycharm,
+  SiAndroidstudio,
+  SiDocker,
+  SiPostman,
+  SiFigma,
+  SiLinux,
+  SiGithubactions,
+  SiWebpack,
+  SiVite,
+  SiRust,
+  SiKubernetes,
+  SiWeb3Dotjs,
+  SiLangchain,
+  SiOpenai,
 } from "react-icons/si";
+
+import { VscVscode } from "react-icons/vsc";
 import { IconType } from "react-icons";
-import { DiCss3, DiJava, DiJavascript, DiMongodb } from "react-icons/di";
+import { FaAws, FaMicrosoft } from "react-icons/fa";
+import { DiCss3, DiJava } from "react-icons/di";
 
 const iconMap: Record<string, IconType> = {
   // Programming
@@ -32,7 +51,7 @@ const iconMap: Record<string, IconType> = {
   "C++": SiCplusplus,
   "Python": SiPython,
   "Java": DiJava,
-  "Java Script": DiJavascript,
+  "Java Script": SiJavascript,   // ✅ fixed naming
   "TypeScript": SiTypescript,
 
   // Frontend
@@ -40,16 +59,40 @@ const iconMap: Record<string, IconType> = {
   "Next.js": SiNextdotjs,
   "Vue.js": SiVuedotjs,
   "HTML5": SiHtml5,
-  "CSS 3": DiCss3,
+  "CSS 3": DiCss3,              
   "Tailwind CSS": SiTailwindcss,
-  "BootStrap": SiBootstrap,
+  "BootStrap": SiBootstrap,    
 
   // Backend
   "Node.js": SiNodedotjs,
   "Express.js": SiExpress,
   "MySQL": SiMysql,
-  "Mongo DB": DiMongodb,
+  "Mongo DB": SiMongodb,        
   "Firebase": SiFirebase,
+
+  // Tools & Platforms
+  "Git": SiGit,
+  "IntelliJ IDEA": SiIntellijidea,
+  "VS Code": VscVscode,
+  "Microsoft Power BI": FaMicrosoft,  
+  "Microsoft Azure": FaMicrosoft,     
+  "AWS": FaAws,
+  "PyCharm": SiPycharm,
+  "Android Studio": SiAndroidstudio,
+
+  "Rust": SiRust,
+  "Kubernetes": SiKubernetes,
+  "Docker": SiDocker,
+  "Web3": SiWeb3Dotjs,
+  "LangChain": SiLangchain,
+  "OpenAI API": SiOpenai,
+
+  "Postman": SiPostman,
+  "Figma": SiFigma,
+  "Linux": SiLinux,
+  "GitHub Actions": SiGithubactions,
+  "Webpack": SiWebpack,
+  "Vite": SiVite,
 };
 
 function Panel({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -202,6 +245,29 @@ export default function Skills() {
             <PanelHeader label="PROGRAMMING" />
             <div className="flex flex-wrap gap-2">
               {skills.Programming.map((c) => <SkillTag key={c} label={c} />)}
+            </div>
+          </Panel>
+
+          <Panel delay={0.2}>
+            <PanelHeader label="PLATFORMS" />
+              <div className="flex flex-wrap gap-2">
+              {skills.Platforms.map((c) => <SkillTag key={c} label={c} />)}
+            </div>
+          </Panel>
+
+          <Panel delay={0.3}>
+            <PanelHeader label="DEV TOOLS & WORKFLOW" />
+              <div className="flex flex-wrap gap-2">
+                {skills.DevTools.map((t) => <SkillTag key={t} label={t} />)}
+              </div>
+          </Panel>
+
+          <Panel delay={0.4}>
+            <PanelHeader label="CURRENTLY LEARNING" />
+            <div className="flex flex-wrap gap-2">
+              {skills.CurrentlyLearning.map((t) => (
+                <SkillTag key={t} label={t} />
+              ))}
             </div>
           </Panel>
 

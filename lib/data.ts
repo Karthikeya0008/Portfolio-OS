@@ -2,6 +2,7 @@ import { Database } from "lucide-react";
 
 export const resumeData = {
   name: {
+    hi: "Hi, I'm ",
     first: "Dara",
     last: "Karthikeya",
   },
@@ -13,9 +14,10 @@ export const resumeData = {
   linkedin: "https://www.linkedin.com/in/dara-karthikeya-572b78281/",
   github: "https://github.com/Karthikeya0008",
   Blogs: "https://medium.com/@darakarthikeya",
+  tech: "https://codolio.com/profile/darakarthikeya",
   stats: [
     { value: "8.89", label: "CGPA / 10" },
-    { value: "5+", label: "PROJECTS" },
+    { value: "7+", label: "PROJECTS" },
     { value: "2028", label: "GRAD YEAR" },
   ],
   skills: {
@@ -36,10 +38,36 @@ export const resumeData = {
       "TypeScript"      
     ],
     proficiency: [
-      { name: "Full-Stack Web Dev", level: 100 },
-      { name: "Machine Learning", level: 100 },
-      { name: "Blockchain / Smart Contracts", level: 100 },
-      { name: "UI/UX & Prototyping", level: 100 },
+      { name: "Full-Stack Web Dev", level: 95 },
+      { name: "Machine Learning", level: 93 },
+      { name: "Blockchain / Smart Contracts", level: 80 },
+      { name: "UI/UX & Prototyping", level: 85 },
+    ],
+    Platforms: [
+      "VS Code",
+      "PyCharm",
+      "IntelliJ IDEA",
+      "Git",
+      "AWS",
+      "Microsoft Azure",
+      "Android Studio",
+    ],
+    CurrentlyLearning: [
+      "Rust",
+      "Kubernetes",
+      "Docker",
+      "Web3",
+      "LangChain",
+      "OpenAI API",
+    ],
+    DevTools: [
+      "Docker",
+      "Postman",
+      "Figma",
+      "Linux",
+      "GitHub Actions",
+      "Webpack",
+      "Vite",
     ],
   },
   
@@ -81,6 +109,28 @@ export const resumeData = {
       ],
     },
   ],
+blogs: [
+  {
+    id: "01",
+    title: "How Does Spotify Know Your Music Taste?",
+    tagline: "A system-level breakdown of the recommendation engine behind 100 million tracks and 600 million users.",
+    tag: "ARTICLE",
+    date: "25th April 2026",
+    readTime: "6 MIN READ",
+    coverImage: "/blogs/spotify.webp", // drop your image in /public/blogs/
+    link: "https://darakarthikeya.medium.com/how-does-spotify-know-your-music-taste-71f01481ef83",
+  },
+  {
+    id: "02",
+    title: "Why is Agentic AI the Next Big Thing!",
+    tagline: "Why I believe Agentic AI will outcompete everything else: it doesn’t just follow instructions, it thinks, adapts, and acts autonomously—continuously improving, scaling effortlessly, and redefining how work gets done.",
+    tag: "ARTICLE",
+    date: "25th April 2026",
+    readTime: "8 MIN READ",
+    coverImage: "/blogs/AI.webp",
+    link: "https://darakarthikeya.medium.com/how-does-spotify-know-your-music-taste-71f01481ef83",
+  },
+],
   socials: {
   github: "https://github.com/Karthikeya0008",
   linkedin: "https://www.linkedin.com/in/dara-karthikeya-572b78281/",
@@ -95,9 +145,9 @@ export const resumeData = {
       org: "Tata Consultancy Services, Kolkata",
       period: "MAY 2026 - JUL 2026",
       bullets: [
-        "will write once i join.",
-        "...",
-        "...",
+        "Built AI-powered solutions to solve practical problems, translating ideas into functional prototypes.",
+        "Designed and trained models for tasks such as NLP/computer vision, achieving reliable real-world performance.",
+        "Created user-facing prototypes integrating AI features into applications & Iterated on models based on feedback and evaluation metrics to enhance usability and accuracy.",
       ],
       tags: ["LLM Models","Algorithm Analysis", "System Design"],
       logo: "/logos/tcs.png",

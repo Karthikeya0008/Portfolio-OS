@@ -13,7 +13,7 @@ export default function Education() {
           tag="// EDUCATION LOGS"
           title="Education"
           highlight="Timeline"
-          sub="Academic history and qualifications"
+          sub="A foundation shaped through rigorous academic milestones."
         />
 
         {/* Timeline */}
