@@ -145,7 +145,7 @@ export default function Hero() {
 
               <span
                 style={{
-                  color: "var(--c)",
+                  color: "var(--c3)",
                   textShadow: "0 0 10px rgba(0,255,170,0.7)",
                 }}
               >
