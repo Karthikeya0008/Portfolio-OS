@@ -75,7 +75,7 @@ export const resumeData = {
     {
       id: "01",
       title: "Stock Market Portfolio Management System",
-      period: "AUG 2024 — SEP 2024",
+      period: "AUG 2025 — SEP 2025",
       stack: ["JavaScript", "React.js", "Firebase", "Yahoo Finance API"],
       status: "DEPLOYED",
       bullets: [
@@ -83,6 +83,8 @@ export const resumeData = {
         "Integrated Yahoo Finance via RapidAPI — 500+ daily requests, sub-2s latency, efficient client-side state management.",
         "High-performance analytics dashboard (P/L, allocation, trends) with Firestore queries optimized under 500ms.",
       ],
+      githubUrl: "https://github.com/Karthikeya0008/Fullstack-StockMarket-Portfolio-Organizer",
+      liveUrl: "https://your-live-site.com",
     },
     {
       id: "02",
@@ -95,6 +97,8 @@ export const resumeData = {
         "Robust data pipeline: 5,000+ images with augmentation, normalization, and feature engineering.",
         "Recommendation engine translating model outputs into personalized skincare routines — end-to-end ML deployment.",
       ],
+      githubUrl: "https://github.com/Karthikeya0008/ML-Project-Skin-Classifier",
+      liveUrl: "https://your-live-site.com",
     },
     {
       id: "03",
@@ -107,6 +111,8 @@ export const resumeData = {
         "Merkle tree-based validation ensuring data integrity with minimized on-chain storage overhead.",
         "95% unit test coverage on Ethereum testnet; gas optimized to ~150k per transaction.",
       ],
+      githubUrl: "https://github.com/Karthikeya0008/ML-Project-Skin-Classifier",
+      liveUrl: "https://your-live-site.com",
     },
   ],
 blogs: [
