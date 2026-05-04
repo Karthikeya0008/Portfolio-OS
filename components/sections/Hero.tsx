@@ -277,8 +277,6 @@ export default function Hero() {
                   COMPETITIVE CODING
               </a>
             </motion.div>
-            
-
             {/* Stats */}
             <motion.div
               {...fadeUp(0.35)}

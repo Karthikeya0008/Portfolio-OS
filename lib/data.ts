@@ -151,9 +151,7 @@ blogs: [
       org: "Tata Consultancy Services, Kolkata",
       period: "MAY 2026 - JUL 2026",
       bullets: [
-        "Built AI-powered solutions to solve practical problems, translating ideas into functional prototypes.",
-        "Designed and trained models for tasks such as NLP/computer vision, achieving reliable real-world performance.",
-        "Created user-facing prototypes integrating AI features into applications & Iterated on models based on feedback and evaluation metrics to enhance usability and accuracy.",
+        "Coming Soon!, Looking forward to have a great expierience learning with TCS.",
       ],
       tags: ["LLM Models","Algorithm Analysis", "System Design"],
       logo: "/logos/tcs.png",
