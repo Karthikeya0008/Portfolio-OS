@@ -16,7 +16,7 @@ export const resumeData = {
   Blogs: "https://medium.com/@darakarthikeya",
   tech: "https://codolio.com/profile/darakarthikeya",
   stats: [
-    { value: "8.89", label: "CGPA / 10" },
+    { value: "9.02", label: "CGPA / 10" },
     { value: "7+", label: "PROJECTS" },
     { value: "2028", label: "GRAD YEAR" },
   ],
