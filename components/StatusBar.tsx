@@ -56,7 +56,7 @@ export default function StatusBar({ visible }: Props) {
           { dot: true, text: "SYSTEM ONLINE" },
           { text: "DK OS v2026.1" },
           { text: time },
-          { text: "VIT VELLORE // CSE // CGPA 8.89" },
+          { text: "VIT VELLORE // CSE // CGPA 9.01" },
         ].map((item, i) => (
           <div
             key={i}
