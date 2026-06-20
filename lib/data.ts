@@ -16,7 +16,7 @@ export const resumeData = {
   Blogs: "https://medium.com/@darakarthikeya",
   tech: "https://codolio.com/profile/darakarthikeya",
   stats: [
-    { value: "9.02", label: "CGPA / 10" },
+    { value: "9.01", label: "CGPA / 10" },
     { value: "7+", label: "PROJECTS" },
     { value: "2028", label: "GRAD YEAR" },
   ],
@@ -177,7 +177,7 @@ blogs: [
       degree: "Integrated M.Tech — Computer Science & Engineering",
       sub: "Collaboration with Virtusa",
       period: "AUG 2023 — JUL 2028",
-      score: "CGPA 8.89 / 10",
+      score: "CGPA 9.01 / 10",
       active: true,
       logo: "/logos/vit.webp",
     },

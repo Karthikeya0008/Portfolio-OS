@@ -391,7 +391,7 @@ export default function Hero() {
 </div>
             {/* Floating info cards */}
             {[
-              { label: "CGPA", value: "9.02", top: "20px", left: "-30px" },
+              { label: "CGPA", value: "9.01", top: "20px", left: "-30px" },
               { label: "PROJECTS", value: "7+", bottom: "20px", right: "-30px" },
             ].map((card) => (
               <div
