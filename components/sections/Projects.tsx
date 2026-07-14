@@ -139,40 +139,11 @@ export default function Projects() {
                   )}
 
                   {/* Divider */}
-                  {p.githubUrl && p.liveUrl && (
+                  {p.githubUrl && (
                     <span style={{
                       width: "1px", height: "12px",
                       background: "var(--border)", display: "inline-block", flexShrink: 0,
                     }} />
-                  )}
-
-                  {/* Live site icon */}
-                  {p.liveUrl && (
-                    <a
-                      href={p.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      title="Visit live site"
-                      style={{
-                        color: "var(--text-dim)", transition: "color 0.2s",
-                        display: "flex", alignItems: "center", gap: "5px",
-                      }}
-                      className="hover:!text-[var(--c)]"
-                    >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <circle cx="12" cy="12" r="10" />
-                        <line x1="2" y1="12" x2="22" y2="12" />
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                      </svg>
-                      <span style={{
-                        fontFamily: "var(--font-mono)", fontSize: "9px",
-                        letterSpacing: "1px", color: "inherit",
-                      }}>
-                        LIVE
-                      </span>
-                    </a>
                   )}
                 </div>
               </div>

@@ -21,26 +21,26 @@ export const resumeData = {
     { value: "2028", label: "GRAD YEAR" },
   ],
   skills: {
-    Frontend: ["Next.js", "Vue.js", "React.js", "HTML5", "CSS 3", "Tailwind CSS", "BootStrap"],
+    Frontend: ["Next.js", "React.js", "HTML5", "CSS 3", "Tailwind CSS"],
     Backend: [
       "Node.js",
       "Express.js",
       "Mongo DB",
       "MySQL",
+      "PostgreSQL",
       "Firebase"
     ],
     Programming: [
       "C",
-      "C++",
       "Python",
       "Java",
       "Java Script",
       "TypeScript"      
     ],
     proficiency: [
-      { name: "Full-Stack Web Dev", level: 95 },
-      { name: "Machine Learning", level: 93 },
-      { name: "Blockchain / Smart Contracts", level: 80 },
+      { name: "Full-Stack Web Dev", level: 90 },
+      { name: "Machine Learning & ML-OPS", level: 80 },
+      { name: "Agentic AI and RAG Systems", level: 70 },
       { name: "UI/UX & Prototyping", level: 85 },
     ],
     Platforms: [
@@ -49,7 +49,6 @@ export const resumeData = {
       "IntelliJ IDEA",
       "Git",
       "AWS",
-      "Microsoft Azure",
       "Android Studio",
     ],
     CurrentlyLearning: [
@@ -85,7 +84,6 @@ export const resumeData = {
         "High-performance analytics dashboard (P/L, allocation, trends) with Firestore queries optimized under 500ms.",
       ],
       githubUrl: "https://github.com/Karthikeya0008/Fullstack-StockMarket-Portfolio-Organizer",
-      liveUrl: "https://your-live-site.com",
     },
     {
       id: "02",
@@ -99,7 +97,6 @@ export const resumeData = {
         "Recommendation engine translating model outputs into personalized skincare routines — end-to-end ML deployment.",
       ],
       githubUrl: "https://github.com/Karthikeya0008/ML-Project-Skin-Classifier",
-      liveUrl: "https://your-live-site.com",
     },
     {
       id: "03",
@@ -112,8 +109,7 @@ export const resumeData = {
         "Merkle tree-based validation ensuring data integrity with minimized on-chain storage overhead.",
         "95% unit test coverage on Ethereum testnet; gas optimized to ~150k per transaction.",
       ],
-      githubUrl: "https://github.com/Karthikeya0008/ML-Project-Skin-Classifier",
-      liveUrl: "https://your-live-site.com",
+      githubUrl: "http://github.com/Karthikeya0008/BlockChain-Project-PatentBlock",
     },
   ],
 blogs: [
@@ -152,9 +148,12 @@ blogs: [
       org: "Tata Consultancy Services, Kolkata",
       period: "MAY 2026 - JUL 2026",
       bullets: [
-        "Coming Soon!, Looking forward to have a great expierience learning with TCS.",
+        "Contributed to AI/ML solutions for a utility-sector client during an internship at Tata Consultancy Services (TCS), supporting business analytics and predictive modeling initiatives.",
+        "Preprocessed and analyzed tabular and time-series datasets, performed feature engineering, and developed machine learning and deep learning models using Python, Pandas, Scikit-learn, and TensorFlow to improve model performance.",
+        "Built AI-powered prototypes by integrating GitHub Copilot Agent and NLP-based capabilities, assisting in workflow automation and intelligent application development.",
+        "Researched and evaluated multiple machine learning algorithms, conducted model testing and debugging, documented technical findings, and presented project outcomes to the project team."
       ],
-      tags: ["LLM Models","Algorithm Analysis", "System Design"],
+      tags: [ "Python", "Pandas", "Scikit-learn", "TensorFlow", "Deep Learning", "Machine Learning", "GitHub Copilot"],
       logo: "/logos/tcs.png",
       desc: "Summer Internship",
     },
@@ -166,6 +165,7 @@ blogs: [
         "Led and managed a team of 30+ volunteers executing integrated multi-platform outreach campaigns using zero-budget organic marketing strategies.",
         "Drove 6,000+ attendees to flagship events including E-Summit'25, Futurepreneurs 10.0, and Pioneira.",
         "Designed and prototyped the E-Summit website UI using Figma, and spearheaded marketing across multiple social platforms.",
+        "Took upon the role of Anchor for an event with over 1000 attendees and hosted the Chairman of ISRO, Brand Manager of Amul, Top selling Book Author and CEO of Trip Creative Services."
       ],
       tags: ["Team Leadership","Digital Marketing", "Event Management", "Social Media Management"],
       logo: "/logos/ecell.png",

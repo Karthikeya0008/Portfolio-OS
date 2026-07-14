@@ -38,12 +38,14 @@ import {
   SiWeb3Dotjs,
   SiLangchain,
   SiOpenai,
+  SiPostgresql,
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
 import { IconType } from "react-icons";
 import { FaAws, FaMicrosoft } from "react-icons/fa";
 import { DiCss3, DiJava } from "react-icons/di";
+import { FaShieldHalved } from "react-icons/fa6";
 
 const iconMap: Record<string, IconType> = {
   // Programming
@@ -67,6 +69,7 @@ const iconMap: Record<string, IconType> = {
   "Node.js": SiNodedotjs,
   "Express.js": SiExpress,
   "MySQL": SiMysql,
+  "PostgreSQL": SiPostgresql,
   "Mongo DB": SiMongodb,        
   "Firebase": SiFirebase,
 
@@ -86,6 +89,7 @@ const iconMap: Record<string, IconType> = {
   "Web3": SiWeb3Dotjs,
   "LangChain": SiLangchain,
   "OpenAI API": SiOpenai,
+  "Cyber Security": FaShieldHalved,
 
   "Postman": SiPostman,
   "Figma": SiFigma,
