@@ -59,6 +59,7 @@ export const resumeData = {
       "Web3",
       "LangChain",
       "OpenAI API",
+      "Cyber Security"
     ],
     DevTools: [
       "Docker",

@@ -379,7 +379,7 @@ export default function Hero() {
     }}
   >
     <Image
-      src="/profile.jpg"
+      src="/profile.jpeg"
       alt="Dara Karthikeya"
       fill
       style={{ objectFit: "cover", objectPosition: "center 30%" }}
