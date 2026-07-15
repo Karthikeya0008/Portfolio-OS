@@ -8,7 +8,7 @@ export const resumeData = {
   },
   tagline: "Code in one hand, ideas in the other",
   description:
-    "Integrated M.Tech CS student at VIT Vellore (2028), specializing in AI/ML and full-stack development. Built FastAPI backends, ML pipelines, and Copilot-based AI agents during my TCS internship. Currently developing AI-driven fintech projects, including NSE anomaly detection with RAG explainability. Seeking ML/AI and fintech roles.",
+    "Integrated M.Tech CS student at VIT Vellore (2028), specializing in AI/ML and full-stack development. Built FastAPI backends, ML pipelines, and Copilot-based AI agents at TCS. Currently developing AI-driven fintech projects, including NSE anomaly detection with RAG explainability. Seeking ML/AI and fintech roles",
   email: "dara.karthikeya@outlook.com",
   phone: "+91 87128 84472",
   linkedin: "https://www.linkedin.com/in/dara-karthikeya-572b78281/",
