@@ -23,8 +23,8 @@ const QUICK_ACTIONS = [
 ];
 
 const DOCUMENTS = [
-  { label: "Resume",         icon: FileText, sub: "View / download CV",  href: "https://drive.google.com/file/d/1i6u4f3ZhKkoCeK06Jt2HCoHbuKmE-rO0/view?usp=sharing" },
-  { label: "Certifications", icon: Award,    sub: "View Certifications", href: "https://drive.google.com/file/d/1i9EOF917uz3zutk3jimfmhPD_9N-iNQG/view?usp=sharing" },
+  { label: "Resume",         icon: FileText, sub: "View / download CV",  href: "https://drive.google.com/file/d/1WJauGwswFwqlCs4k-C9PNfjN9AAQIAZ4/view?usp=sharing" },
+  { label: "Certifications", icon: Award,    sub: "View Certifications", href: "https://drive.google.com/drive/folders/1Y9ksK1zdkWNtakuFCzvcTEmfPpxdt7I8?usp=sharing" },
 ];
 
 type Item = { label: string; icon: Icon; sub: string; href: string };
